@@ -1,0 +1,37 @@
+model:
+  type: GradientBoostingRegressor
+  n_estimators: 200
+  learning_rate: 0.08
+  max_depth: 4
+  min_samples_split: 5
+  subsample: 0.85
+  random_state: 42
+
+cross_validation:
+  n_splits: 5
+  shuffle: true
+  random_state: 42
+
+features:
+  - gdp_growth_pct
+  - unemployment_rate
+  - education_spending_pct_gdp
+  - tax_revenue_pct_gdp
+  - human_development_index
+  - policy_score
+  - fiscal_efficiency
+  - gdp_per_capita
+  - poverty_change_yoy
+  - unem_rolling3
+  - social_investment
+  - social_investment_ratio
+  - tax_edu_ratio
+
+target: poverty_rate
+# hyperparameters update
+
+# Advanced Feature Definitions added during March refactor
+advanced_features:
+  - social_investment_ratio
+  - tax_edu_ratio
+  - gini_gdp_interaction
