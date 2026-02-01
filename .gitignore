@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+*.zip
+*.egg-info/
+dist/
+build/
+.streamlit/secrets.toml
+commit_person_a*.py
+commit_person_b*.py
+commit_person_a*.sh
+commit_person_b*.sh
+git_commit_guide.md
+fetch_real_data.py

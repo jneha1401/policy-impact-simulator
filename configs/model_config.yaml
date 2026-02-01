@@ -1,0 +1,27 @@
+model:
+  algorithm: GradientBoostingRegressor
+  n_estimators: 200
+  learning_rate: 0.08
+  max_depth: 4
+  min_samples_split: 5
+  subsample: 0.85
+  random_state: 42
+
+cross_validation:
+  n_splits: 5
+  shuffle: true
+
+data:
+  countries: 20
+  year_start: 2000
+  year_end: 2022
+
+indicators:
+  - gdp_growth_pct
+  - unemployment_rate
+  - education_spending_pct_gdp
+  - tax_revenue_pct_gdp
+  - human_development_index
+  - policy_score
+
+target: poverty_rate
