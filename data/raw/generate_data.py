@@ -100,3 +100,4 @@ df = pd.DataFrame(records)
 df.to_csv("data/raw/policy_data.csv", index=False)
 print(f"Generated {len(df)} records for {len(COUNTRIES)} countries across {len(YEARS)} years")
 print(df.head(3))
+# updated
