@@ -65,3 +65,4 @@ def prepare_pipeline(df: pd.DataFrame) -> pd.DataFrame:
     df = clean_data(df)
     df = engineer_features(df)
     return df
+# updated
