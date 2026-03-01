@@ -250,3 +250,4 @@ def unemployment_trend_chart(df: pd.DataFrame, countries: list) -> go.Figure:
         **LAYOUT_BASE,
     )
     return _apply_base(fig)
+# updated
