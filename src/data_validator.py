@@ -13,3 +13,4 @@ def check_data_bounds(df):
     if df['gdp_growth'].min() < -30:
         warnings.append("Severe economic contraction detected in data (<-30%)")
     return warnings
+# Fix limits
