@@ -328,3 +328,4 @@ with tab5:
 # Tab 4 filters
 # Tab 5 diagnostics
 # Tooltips added
+# Sidebar wire
