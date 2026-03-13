@@ -329,3 +329,4 @@ with tab5:
 # Tab 5 diagnostics
 # Tooltips added
 # Sidebar wire
+# Tab 1 stats
