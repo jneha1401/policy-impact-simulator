@@ -133,3 +133,4 @@ def call_api_with_retry(prompt, max_retries=3):
             time.sleep(2 ** attempt) # Exponential backoff
 # Prompt tuning
 # Fallback HTML
+# API retry
