@@ -330,3 +330,4 @@ with tab5:
 # Tooltips added
 # Sidebar wire
 # Tab 1 stats
+# Tab 2 wiring
