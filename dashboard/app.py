@@ -331,3 +331,4 @@ with tab5:
 # Sidebar wire
 # Tab 1 stats
 # Tab 2 wiring
+# Tab 3 sync
