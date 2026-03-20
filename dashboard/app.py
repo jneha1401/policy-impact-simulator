@@ -332,3 +332,4 @@ with tab5:
 # Tab 1 stats
 # Tab 2 wiring
 # Tab 3 sync
+# Tab 4 filters
