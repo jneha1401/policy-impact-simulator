@@ -333,3 +333,4 @@ with tab5:
 # Tab 2 wiring
 # Tab 3 sync
 # Tab 4 filters
+# Tab 5 diagnostics
