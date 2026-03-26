@@ -183,3 +183,4 @@ def unemployment_trend_chart(df: pd.DataFrame, countries: list) -> go.Figure:
 # Remove unused
 # Radar chart
 # Radar chart
+# Format charts
