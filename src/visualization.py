@@ -185,3 +185,4 @@ def unemployment_trend_chart(df: pd.DataFrame, countries: list) -> go.Figure:
 # Radar chart
 # Format charts
 # Docstrings
+# Color update
