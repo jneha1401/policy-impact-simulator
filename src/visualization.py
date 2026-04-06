@@ -85,10 +85,13 @@ def feature_importance_chart(imp_df: pd.DataFrame) -> go.Figure:
         marker_color=ACCENT,
         hovertemplate="%{y}: %{x:.4f}<extra></extra>",
     ))
-    fig.update_layout(**LAYOUT_BASE,
-        title=dict(text="Feature Importance (Top 10)", font=dict(size=13, color=TEXT_MAIN), x=0.0),
-        yaxis=dict(autorange="reversed", gridcolor=BORDER, tickfont=dict(color=TEXT_DIM)),
+    fig.update_layout(
+        **LAYOUT_BASE,
+        title=dict(text="Feature Importance (Top 10)", font=dict(size=13, color=TEXT_MAIN), x=0.0)
     )
+    # Fix duplicate kwargs error and add professional styling
+    fig.update_yaxes(autorange="reversed")
+    fig.update_traces(marker=dict(line=dict(color=DARK_BG, width=1.5)), opacity=0.9)
     return fig
 
 
